@@ -1,0 +1,182 @@
+/* Computers and tablets */
+
+*, *:before, *:after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+	background-color: white;
+	font-family: 'Inter', sans-serif;
+	color: black;
+	}
+
+p {
+	font-size: 1.2em;
+	font-weight: 200;
+	padding: 0 0 1.2em;
+	line-height: 1.7em;
+	}
+
+h1 {
+	font-size: 4.1em;
+	font-weight: 800;
+	padding: 0 0 0.1em;
+	}
+
+h2 {
+	font-size: 2em;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 1.3em 0 0.4em;
+	}
+
+h3 {
+	font-size: 1.4em;
+	font-weight: 700;
+	padding: 1.3em 0 0.6em;
+	}
+	
+h4 {
+	font-size: 1.4em;
+	font-weight: 600;
+	padding: 0 0 0.3em;
+	}
+	
+h5 {
+	font-size: 1.2em;
+	font-weight: 700;
+	padding: 0.3em 0 0.6em;
+	}
+
+strong {
+	padding: 0.5em 0 0.5em;
+    font-weight: 500;
+    color: rgb(59, 59, 59);
+	}
+	
+span.locn {
+    display:inline-block;
+    text-align:right;
+    white-space: nowrap;
+    float: right;
+}
+
+ul {
+	padding: 0 0 0.7em 25px;
+	}
+
+li > p {
+	padding: 0 0 0.3em 0.5em;
+	}
+
+a {
+	text-decoration: none;
+	}
+
+a:link {
+	text-decoration: none;
+	color: black;
+	border-color: black;
+	border-width: 0 0 1px 0;
+	border-style: none none dotted none;
+	}
+
+a:visited {
+	color: black;
+	border-color: black;
+	border-width: 0px;
+	}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+	border-color: black;
+	border-width: 0 0 1px 0;
+	border-style: none none dotted none;
+	}
+
+/* IDs **********************************************************************************/
+
+#container {
+	width: 100%;
+	margin: 0 auto;
+	}
+
+#main {
+	
+	}
+	
+#topmatter {
+    background: black;
+    color: white;
+    padding: 5em 0 5em;
+    }
+    
+#topmatter_content {
+    margin: 0 auto;
+	padding: 0 70px 0;
+	min-width: 1000px;
+	max-width: 1100px;
+	}
+	
+#contact_block {
+    padding-top: 25px;
+    }
+	
+#content {
+    margin: 0 auto;
+	padding: 2em 70px 0;
+	min-width: 1000px;
+	max-width: 1100px;
+	}
+
+/* Classes ******************************************************************************/
+
+.contact {
+    padding: 10px 0 10px 0;
+    display: flex;
+    }
+    
+.contact img {
+    width: 50px;
+    position: relative;
+    margin-right: 30px;
+    }
+
+.contact h4 {
+    }
+    
+.contact a {
+    color: white;
+    }
+    
+.contact a:link {
+	border-color: transparent;
+	}
+    
+.contact a:visited {
+	border-color: white;
+	}
+
+.contact a:hover {
+	border-color: white;
+	}
+	
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.right_column {
+  flex: 50%;
+  text-align: right;
+}
