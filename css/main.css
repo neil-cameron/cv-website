@@ -1,19 +1,18 @@
-/* Computers and tablets */
-
 *, *:before, *:after {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 	}
 
-html::-webkit-scrollbar {
-  display: none;
+html {
+    width: 100%;
 }
 
 body {
 	background-color: white;
 	font-family: 'Inter', sans-serif;
 	color: black;
+	width: 100%;
 	}
 
 p {
@@ -109,13 +108,13 @@ a:hover {
 	}
 
 #main {
-	
 	}
 	
 #topmatter {
     background: black;
     color: white;
     padding: 5em 0 5em;
+    width: 100%;
     }
     
 #topmatter_content {
